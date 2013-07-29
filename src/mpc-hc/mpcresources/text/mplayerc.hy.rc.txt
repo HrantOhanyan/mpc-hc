@@ -1,19 +1,19 @@
 BEGIN DIALOGEX IDD_ABOUTBOX LINES 29
 3		"Ծրագրի մասին"
 8		"Copyright © 2002-2013, կարդացե՛ք Authors.txt ֆայլը"
-11		"Այս ծրագիրը անվճար է և տարածվում է GNU General Public-ի լիցենզիայով։"
+11		"Այս ծրագիրը անվճար է և տարածվում է GNU General Public-ի արտոնագրով։"
 12		"Թարգմանեց Հրանտ Օհանյանը »»» http://haysoft.org"
 13		"Build information"
 14		"Տարբերակը."
 16		"MPC-HC կազմարկիչ."
-18		"LAV Filters:"
-19		"Not used"
-20		"Build date:"
-22		"Operating system"
-23		"Name:"
-25		"Version:"
-27		"Copy to clipboard"
-28		"OK"
+18		"LAV ֆիլտրեր."
+19		"Չի օգտ."
+20		"Մշակման ամսաթիվը."
+22		"Օպերացիոն համակարգը"
+23		"Անունը."
+25		"Տարբերակը."
+27		"Պատճենել պահոցում"
+28		"ԼԱՎ"
 END
 
 BEGIN DIALOGEX IDD_ADDREGFILTER LINES 10
@@ -90,15 +90,15 @@ BEGIN DIALOGEX IDD_GOTO_DLG LINES 14
 3		"Անցնել..."
 6		"Ժամանակը նշեք հետևյալ կերպ [hh:]mm:ss.ms՝ նշված ժամանակին անցնելու համար։"
 7		"Ժ-ը"
-9		"Առաջ!"
+9		"Առաջ"
 10		"Գրեք երկու թիվ՝ նշված կադրին անցնելու համար. առաջինը՝ կադրի թիվը, երկրորդը՝ կադրերի քանակը վայրկյանում։"
 11		"Կադրը"
-13		"Առաջ!"
+13		"Առաջ"
 END
 
 BEGIN DIALOGEX IDD_MEDIATYPES_DLG LINES 12
 4		"Ուշադրություն"
-7		"Media Player Classic - Home Cinema-ն չի կարողանում վերարտադրել որոշ հոսքեր, հնարավոր է, որ տեղակայված չէ համապատասխան կոդավորիչը կամ ֆիլտրը։"
+7		"Media Player Classic - Home Cinema-ն չկարողացավ վերարտադրել որոշ հոսքեր, հնարավոր է, որ տեղակայված չէ համապատասխան կոդավորիչը կամ ֆիլտրը։"
 8		"Այս հոսքերի համար ընտրված չէ համապատասխան ֆիլտր."
 11		"Փակել"
 END
@@ -173,9 +173,9 @@ BEGIN DIALOGEX IDD_PPAGECAPTURE LINES 28
 END
 
 BEGIN DIALOGEX IDD_PPAGEDVD LINES 20
-5		"""Open DVD/BD"" behavior"
-6		"Prompt for location"
-7		"Always open the default location:"
+5		"""Բացել DVD/BD"" սարքը"
+6		"Հարցնել տեղի համար"
+7		"Մշտապես բացել հիմնական տեղը"
 10		"Նախընտրելի Լեզուն՝ DVD-ի ուղորդման և OGM-ի համար"
 11		"Ընտրացանկ"
 12		"Ձայնը"
@@ -325,7 +325,7 @@ BEGIN DIALOGEX IDD_PPAGEPLAYBACK LINES 48
 38		"Տողագրերի ինքնաբացում"
 39		"Կառավարում"
 40		"Ձայնի քայլը."
-44		"Speed step:"
+44		"Քայլի արագությունը."
 END
 
 BEGIN DIALOGEX IDD_PPAGEPLAYER LINES 34
@@ -349,7 +349,7 @@ BEGIN DIALOGEX IDD_PPAGEPLAYER LINES 34
 26		"Պահպանել բացված ֆայլերի պատ-ը"
 28		"Հիշել DVD-ի դիրքը"
 29		"Հիշել ֆայլի դիրքը"
-30		"Remember last playlist"
+30		"Հիշել վերջին խաղացանկը"
 31		"Հիշել դիրքը"
 32		"Հիշել չափը"
 33		"Հիշել վերջին Pan-n-Scan չափը"
@@ -722,7 +722,7 @@ BEGIN MENU IDR_POPUP LINES 236
 42		"&100%\tAlt+2"
 43		"&200%\tAlt+3"
 44		"Ծրագրային\tAlt+4"
-45		"Auto Fit (Larger Only)\tAlt+5"
+45		"Ինքնահարմարեցնել (միայն մեծերը)\tAlt+5"
 48		"&Կադրը"
 50		"&Կես չափով"
 51		"&Նորմալ չափի"
@@ -785,7 +785,7 @@ BEGIN MENU IDR_POPUP LINES 236
 132		"Անցնել ցանկում հաջորդին"
 135		"Տե&սքը"
 137		"Բոլոր պատուհաններից վեր"
-139		"&Default"
+139		"&Ծրագրային"
 140		"Միշտ"
 141		"Վերարտադրելիս"
 142		"Տեսանյութը վերարտադրելիս"
